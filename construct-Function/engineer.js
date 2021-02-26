@@ -1,4 +1,4 @@
-const Employee = ("./employee")
+const Employee = require("./employee")
 
 class Engineer extends Employee {
     constructor (name, id, email, github ) {
@@ -10,7 +10,9 @@ class Engineer extends Employee {
          return this.github
      };   
 
-    getGithub() {
+    getrole() {
         return "Engineer"
     }
 }
+
+module.exports = Engineer

@@ -8,7 +8,7 @@ class Employee {
         return this.name
     };
     getId() {
-        return this.Id
+        return this.id
     };
     getEmail() {
         return this.email
@@ -18,3 +18,5 @@ class Employee {
         return "Employee"
     }
     }
+
+    module.exports = Employee
