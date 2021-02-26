@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const manager = require();
+const manager = require("");
 const engineer = require();
 const intern = require();
 const employees = [];
@@ -52,14 +52,14 @@ addEmployee = () => {
     },
     {
         type: "list",
-        message: "Would you like to add more team members?"
+        message: "Would you like to add more team members?",
         choices:[
             "yes",
             "no"
         ],
         name: "membersAdded"
     }]).then(({roleData, membersAdded}) =>{
-        
+
     })
     
 
