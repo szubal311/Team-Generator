@@ -1,4 +1,4 @@
-const Manager = require("./construct-function/manager");
+const Manager = require("../construct-function/manager");
 
 test("Set office number using constructor argument", () => {
   const validTest = 111;
@@ -12,8 +12,8 @@ test("getRole() should return \"Manager\"", () => {
   expect(manager.getRole()).toBe(validTest);
 });
 
-test("Get office number using getOffice()", () => {
+test("Get office number using getNumber()", () => {
   const validTest = 100;
   const manager = new Manager("Din", 1, "test@test.com", validTest);
-  expect(manager.getOfficeNumber()).toBe(validTest);
+  expect(manager.getNumber()).toBe(validTest);
 });

@@ -1,18 +1,18 @@
-const Intern = require("./construct-function/intern");
+const Intern = require("../construct-function/intern");
 
-test("Set GitHub account using constructor argument", () => {
+test("Set school using constructor argument", () => {
     const validTest = "Jedi Academy";
-    const intern = new Engineer("Din", 1, "test@test.com", validTest);
-    expect(intern.github).toBe(validTest);
+    const intern = new Intern("Din", 1, "test@test.com", validTest);
+    expect(intern.school).toBe(validTest);
 });
 
-test("getRole() should return \"engineer\"", () => {
+test("getRole() should return \"intern\"", () => {
     const validTest = "Intern";
     const intern = new Intern("Din", 1, "test@test.com", "Jedi Academy");
     expect(intern.getRole()).toBe(validTest);
 });
 
-test("Get GitHub user name using getGitHub()", () => {
+test("Get school name using getSchool()", () => {
     const validTest = "Jedi Academy";
     const intern = new Intern("Din", 1, "test@test.com", validTest);
     expect(intern.getSchool()).toBe(validTest);

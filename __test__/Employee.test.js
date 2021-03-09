@@ -1,4 +1,4 @@
-const Employee = require("./construct-function/employee") 
+const Employee = require("../construct-function/employee") 
 
 describe("Employee", () => {
     it("Instanciates Employee Instance", () => {
@@ -9,19 +9,19 @@ describe("Employee", () => {
     it("Sets the name using constructor arguments", () => {
         const name = "Din";
         const employee = new Employee(name);
-        expect(employee.name).toBe("name");
+        expect(employee.name).toBe(name);
     });
 
     it("Sets the id using constructor arguments", () => {
         const validTest = "111";
         const employee = new Employee("Grogu", validTest);
-        expect(employee.id).toBe("validTest");
+        expect(employee.id).toBe(validTest);
     });
 
     it("Sets the email using constructor arguments", () => {
         const validTest = "test@test.com";
         const employee = new Employee("Grogu", 1, validTest);
-        expect(employee.email).toBe("validTest");
+        expect(employee.email).toBe(validTest);
     });
 
 
@@ -29,7 +29,7 @@ describe("getName", () => {
     it ("Pulls name using getName()", () => {
         const validTest = "Din"
         const employee = new Employee(validTest);
-        expect(employee.getName()).toBe("validTest");
+        expect(employee.getName()).toBe(validTest);
     });
 });
 
