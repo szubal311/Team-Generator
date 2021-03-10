@@ -5,7 +5,7 @@ The objective was to build a NODE CLI that uses infomation about employees and g
 This application will provide a prompt to the user to provide the information about each team member. There is no limit to the number team members and may be a mix of Manager, Engineer, or Intern. Once a user has completed filling out the information, the application will create an HTML file that displays a formated team roster using the inputted data.
 
 ## Video
-<iframe src="https://drive.google.com/file/d/1y1eyRC07v3Obw-9153PXFE0NtZriOfVE/view" width="640" height="480"></iframe>
+<a href="https://drive.google.com/file/d/1y1eyRC07v3Obw-9153PXFE0NtZriOfVE/view" width="640" height="480"><a>
 
 ## Technologies
 npm
