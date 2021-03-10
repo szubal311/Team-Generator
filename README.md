@@ -1,3 +1,6 @@
+
+https://user-images.githubusercontent.com/73494903/110587493-ff812880-8130-11eb-8b0d-2e29aaaf8dc3.mp4
+
 # Team-Generator
 
 ## Description
@@ -6,10 +9,8 @@ This application will provide a prompt to the user to provide the information ab
 
 ## Video
 
-  
-<video width="320" height="240" controls>
-  <source src="/assets/images/homework-walkthrough.mp4" type="video/mp4">
-</video>
+
+https://user-images.githubusercontent.com/73494903/110587577-1889d980-8131-11eb-80e8-ac4972adf00b.mp4
 
 
 
