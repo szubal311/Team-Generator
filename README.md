@@ -1,5 +1,4 @@
 
-https://user-images.githubusercontent.com/73494903/110587493-ff812880-8130-11eb-8b0d-2e29aaaf8dc3.mp4
 
 # Team-Generator
 
